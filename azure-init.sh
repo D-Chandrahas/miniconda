@@ -20,7 +20,7 @@ bash miniconda.sh -b -f -p /home/$user/miniconda3
 cp .condarc /home/$user
 cp .sqliterc /home/$user
 cd ..
-rm -rf personal-configs-scripts/
+rm -rf $repodir
 source /home/$user/miniconda3/etc/profile.d/conda.sh
 conda init bash
 # git config
